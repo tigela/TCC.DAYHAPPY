@@ -1,0 +1,14 @@
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.deps.json
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.runtimeconfig.json
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.runtimeconfig.dev.json
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.dll
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csprojAssemblyReference.cache
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csproj.CoreCompileInputs.cache
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.AssemblyInfoInputs.cache
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.AssemblyInfo.cs
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.pdb
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.dll
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.pdb
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.dll
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.pdb
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csproj.CopyComplete

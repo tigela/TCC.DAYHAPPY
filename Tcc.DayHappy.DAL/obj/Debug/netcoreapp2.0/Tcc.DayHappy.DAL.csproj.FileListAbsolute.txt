@@ -1,0 +1,12 @@
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.deps.json
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.dll
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csproj.CoreCompileInputs.cache
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfoInputs.cache
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfo.cs
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.pdb
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.dll
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.pdb
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csprojAssemblyReference.cache
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\igor\Desktop\TCC-DO-CARALHO\Tcc.DayHappy\Tcc.DayHappy.DAL\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csproj.CopyComplete

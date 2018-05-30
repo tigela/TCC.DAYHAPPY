@@ -1,0 +1,77 @@
+﻿@model IEnumerable<DayHappy.Web.Models.ProdutoViewModel>
+
+@{
+    ViewData["Title"] = "SelecionarProduto";
+}
+
+<h2>SelecionarProduto</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cod_Prod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tipo_Prod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tamanho_Prod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Faixa_Etaria_Prod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Valor_Locacao_Prod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Valor_Custo_Prod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descricao_Pro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantidae_Prod)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cod_Prod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo_Prod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tamanho_Prod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Faixa_Etaria_Prod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor_Locacao_Prod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor_Custo_Prod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao_Pro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidae_Prod)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
