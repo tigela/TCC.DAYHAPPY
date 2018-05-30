@@ -1834,23 +1834,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\igor\\.nuget\\packages\\": {},
+    "C:\\Users\\Fernando\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\Tcc.DayHappy\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TCC DAY HAPPY\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
       "projectName": "Tcc.DayHappy.DAL",
-      "projectPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\Tcc.DayHappy\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
-      "packagesPath": "C:\\Users\\igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\Tcc.DayHappy\\Tcc.DayHappy.DAL\\obj\\",
+      "projectPath": "C:\\Users\\Fernando\\Desktop\\TCC DAY HAPPY\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
+      "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fernando\\Desktop\\TCC DAY HAPPY\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

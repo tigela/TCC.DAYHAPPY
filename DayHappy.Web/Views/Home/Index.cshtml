@@ -1,106 +1,812 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Site/_LayoutSite.cshtml";
 }
+<!-- Slide1 -->
+<section class="slide1">
+    <div class="wrap-slick1">
+        <div class="slick1">
+            <div class="item-slick1 item1-slick1" style="background-image: url(images/imagem1.jpg);">
+                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+                        BOM É SER CRIANÇA
+                    </span>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Bring in libraries from NuGet and npm, and automate tasks using Grunt or Gulp.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+                        BOM É SER CRIANÇA
+                    </h2>
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
+                    <!--<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+                        =======Button ======
+                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                            Compre agora
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="item-slick1 item2-slick1" style="background-image: url(images/imagem2.jpg);">
+                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
+                        DayHappy 2018
+                    </span>
+
+                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
+                        BOM É SER CRIANÇA
+                    </h2>
+
+                    <!--<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
+                        =========Button =========
+                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                            Compre agora
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+
+            <div class="item-slick1 item3-slick1" style="background-image: url(images/imagem3.jpg);">
+                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+                        Bom é ser criança
+                    </span>
+
+                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                        Viva a vida é uma festa
+                    </h2>
+
+                    <!--<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                        ========= Button ===========
+                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                            Compre agora
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+
+        </div>
     </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
+</section>
+
+<!-- Briquedos -->
+<section class="newproduct p-t-45 p-b-45 bg6 t-center">
+    <div class="container">
+        <div class="sec-title p-b-45" style="padding-top: 45px; padding-bottom: 0px;">
+            <h3 class="m-text5 t-center">
+                Brinquedos
+            </h3>
+        </div>
+</section>
+
+<!-- Banner -->
+<section class="banner bgblack1 p-t-0 p-b-40" style="background-image: url(images/rodape.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                <!-- block1 -->
+                <div class="block1 hov-img-zoom pos-relative m-b-30">
+                    <img src="~/images/camaelastica.jpg" alt="IMG-BENNER">
+
+                    <div class="block1-wrapbtn w-size2">
+                        <!-- Button -->
+                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                            Cama Elástica
+                        </a>
+                    </div>
+                </div>
+
+                <!-- block1 -->
+                <div class="block1 hov-img-zoom pos-relative m-b-30">
+                    <img src="~/images/piscinadebolinha.jpg" alt="IMG-BENNER">
+
+                    <div class="block1-wrapbtn w-size2">
+                        <!-- Button -->
+                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                            Piscina de Bolinha
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                <!-- block1 -->
+                <div class="block1 hov-img-zoom pos-relative m-b-30">
+                    <img src="~/images/castelo.jpg" alt="IMG-BENNER">
+
+                    <div class="block1-wrapbtn w-size2">
+                        <!-- Button -->
+                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                            Castelo Inflável
+                        </a>
+                    </div>
+                </div>
+
+                <!-- block1 -->
+                <div class="block1 hov-img-zoom pos-relative m-t-120">
+                    <img src="~/images/touromecanico.jpg" alt="IMG-BENNER">
+
+                    <div class="block1-wrapbtn w-size2">
+                        <!-- Button -->
+                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov7 trans-0-4">
+                            Mercadinho
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                <!-- block1 -->
+                <div class="block1 hov-img-zoom pos-relative m-b-30">
+                    <img src="~/images/escorregador2l.jpg" alt="IMG-BENNER">
+
+                    <div class="block1-wrapbtn w-size2">
+                        <!-- Button -->
+                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                            Escorregador
+                        </a>
+                    </div>
+                </div>
+
+                <!-- block2 -->
+                <div class="block2 wrap-pic-w pos-relative m-t-90">
+                    <img src="~/images/icons/bg-01.jpg" alt="IMG">
+
+                    <div class="block2-content sizefull ab-t-l flex-col-c-m">
+                        <h4 class="m-text4 t-center w-size3 p-t-50">
+                            Indique 10 amigos e ganhe 10% de desconto na sua próxima festa
+                        </h4>
+
+                        <div class="w-size2 p-t-15">
+                            <!-- Button -->
+                            <a href="#" class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
+                                Inscreva-se
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
+</section>
+
+<!-- New Product NOSSAS MESAS -->
+<!-- Briquedos -->
+<section class="newproduct bg6 p-t-45 p-b-45 t-center">
+    <div class="container">
+        <div class="sec-title p-b-45" style="padding-top: 45px; padding-bottom: 0px;">
+            <h3 class="m-text5 t-center">
+                Mesas
+            </h3>
+        </div>
+</section>
+
+<section class="newproduct bgwhite p-t-10 p-b-105">
+    <div class="container">
+
+        <!-- Slide2 -->
+        <div class="wrap-slick2">
+            <div class="slick2">
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/frozen.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Frozen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa mundo de Frozen
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$599,99
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/miraculous.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Miraculous
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração Miraculous
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$499,99
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/valente.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Valente
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração Valente
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$600,00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/capitaoamerica.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Capitão America
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração Capitão America
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$500,00s
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/mine.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Mine
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração mudo de Minnie
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$500,99
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/superhomem.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Superman
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração Homem de aço
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$490,99
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/homemdeferro.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Homen de Ferro
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração Homem de Ferro
+                            </a>
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$590,99
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                            <img src="~/images/homemaranha.jpg" alt="IMG-PRODUCT">
+
+                            <div class="block2-overlay trans-0-4">
+                                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                </a>
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        Homem Aranha
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                Mesa decoração Homem Aranha
+                            </a>
+
+
+
+                            <span class="block2-price m-text6 p-r-5">
+                                R$459,99
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
+</section>
+
+<!-- Banner2 PROMOÇÕES -->
+<!-- Briquedos -->
+<section class="newproduct bg9 p-t-45 p-b-45 t-center">
+    <div class="container">
+        <div class="sec-title p-b-45 p-b-0">
+            <h3 class="m-text5-1 t-center">
+                Promoções
+            </h3>
+        </div>
+</section>
+<section class="banner2 bg5-1 p-t-55 p-b-55">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
+                <div class="hov-img-zoom pos-relative">
+                    <img src="~/images/piscinadebolinha1.jpg" alt="IMG-BANNER">
+
+                    <div class="ab-t-l sizefull flex-col-c-m p-l-15 p-r-15">
+
+                        <h2 class="m-text9-1 p-t-45">
+                            Piscina de Bolinha 2x2
+                        </h2>
+
+                        <span class="block2-oldprice m-text7-1 p-r-5">
+                            R$200,00
+                        </span>
+
+                        <span class="block2-newprice m-text9-1">
+                            R$189.90
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
+                <div class="bgwhite hov-img-zoom pos-relative p-b-20per-ssm">
+                    <img src="~/images/futeboldesabao.jpg" alt="IMG-BANNER">
+
+                    <div class="ab-t-l sizefull flex-col-c-b p-l-15 p-r-15 p-b-20">
+                        <div class="t-center">
+
+                            <h2 class="m-text9-1 p-t-45">
+                                Futebol de Sabão
+                            </h2>
+
+                            <span class="block2-oldprice m-text7-1 p-r-5">
+                                R$650.90
+                            </span>
+
+                            <span class="block2-newprice m-text9-1">
+                                $559.90
+                            </span>
+                        </div>
+
+                        <div class="flex-c-m p-t-44 p-t-30-xl">
+                            <!--<div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                <span class="m-text10 p-b-1 days">
+                                    15
+                                </span>
+
+                                <span class="s-text5">
+                                    dias
+                                </span>
+                            </div>
+
+                            <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                <span class="m-text10 p-b-1 hours">
+                                    04
+                                </span>
+
+                                <span class="s-text5">
+                                    hrs
+                                </span>
+                            </div>
+
+                            <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                <span class="m-text10 p-b-1 minutes">
+                                    32
+                                </span>
+
+                                <span class="s-text5">
+                                    mins
+                                </span>
+                            </div>
+
+                            <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                <span class="m-text10 p-b-1 seconds">
+                                    05
+                                </span>
+
+                                <span class="s-text5">
+                                    secs
+                                </span>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section>
+
+
+<!-- Blog BARRACAS -->
+<!-- Briquedos -->
+<section class="newproduct p-t-45 p-b-45 t-center" style="background-image: url(images/rodape.jpg);">
+    <div class="container">
+        <div class="sec-title p-b-45" style="padding-top: 45px; padding-bottom: 0px;">
+            <h3 class="m-text5 t-center">
+                Barracas
+            </h3>
+        </div>
+</section>
+<section class="blog bgwhite p-t-94 p-b-65">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
+                Pipoca
+                <div class="block3">
+                    <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+                        <img src="~/images/barracadepipoca.jpg" alt="IMG-BLOG">
+                    </a>
+
+                    <div class="block3-txt p-t-14">
+                        <h4 class="p-b-7">
+                            <a href="blog-detail.html" class="m-text11">
+                                Barriquinha de pipoca para locação de eventos.
+                            </a>
+                        </h4>
+                        <span class="block2-price m-text6 p-r-5">
+                            R$259,99
+                        </span>
+
+                        <!--<span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
+                        <span class="s-text6">on</span> <span class="s-text7">July 22, 2017</span>
+
+                        <p class="s-text8 p-t-16">
+
+                        </p>-->
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
+                Algodão Doce
+                <div class="block3">
+                    <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+                        <img src="~/images/barracadealgodaodoce.jpg" alt="IMG-BLOG">
+                    </a>
+
+                    <div class="block3-txt p-t-14">
+                        <h4 class="p-b-7">
+                            <a href="blog-detail.html" class="m-text11">
+                                Barraquinha de Algidão doce para locção de eventos
+                            </a>
+                        </h4>
+                        <span class="block2-price m-text6 p-r-5">
+                            R$219,99
+                        </span>
+
+                        <!--<span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
+                        <span class="s-text6">on</span> <span class="s-text7">July 18, 2017</span>
+
+                        <p class="s-text8 p-t-16">
+                            Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                        </p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
+                Crepe Suiço
+                <div class="block3">
+                    <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
+                        <img src="~/images/barracadecrepe.jpg" alt="IMG-BLOG">
+                    </a>
+
+                    <div class="block3-txt p-t-14">
+                        <h4 class="p-b-7">
+                            <a href="blog-detail.html" class="m-text11">
+                                Barraquinha de crepe suiço para locação de evento.
+                            </a>
+                        </h4>
+                        <span class="block2-price m-text6 p-r-5">
+                            R$199,99
+                        </span>
+
+                        <!--<span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
+                        <span class="s-text6">on</span> <span class="s-text7">July 2, 2017</span>
+
+                        <p class="s-text8 p-t-16">
+                            Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                        </p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Instagram COMENTÁRIOS -->
+<section class="instagram p-t-20 bg6">
+    <div class="sec-title p-b-52 p-l-15 p-r-15">
+        <h3 class="m-text5 t-center">
+            Comentários
+        </h3>
+    </div>
+
+    <div class="flex-w">
+        <!-- Block4 -->
+        <div class="block4 wrap-pic-w">
+            <img src="images/aacd.jpg" alt="IMG-INSTAGRAM">
+
+            <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
+                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                    <i class="icon_heart_alt fs-20 p-r-12" aria-hidden="true"></i>
+                    <span class="p-t-2">39</span>
+                </span>
+
+                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                        Fev 2017
+                        A Associação de Assistência à Criança Deficiente é uma entidade Beneficente, sem fins lucrativos, dedicada exclusivamente na habilitação e reabilitação de pessoas com deficiência física.
+                        Para prosseguir no nosso intento, precisamos recorrer diversas vezes às empresas da comunidade, a fim de viabilizar eventos beneficentes.
+                        Nesta oportunidade desejamos ressaltar a importância da contribuição e apoio aos nossos eventos, pois nos ajudam substancialmente na captação de recursos para a manutenção dos atendimentos.
+                        Expressamos os nossos sinceros agradecimentos pela cessão dos brinquedos para o evento 'Trucks do Bem' realizado no último dia 04. Ficamos honrados por este gesto de solidariedade e apoio ao trabalho realizado pela AACD.
+
+                        Atenciosamente,
+                        Minéia Teixeira
+                        Gerente Administrativo AACD Osasco
+                    </p>
+
+                    <span class="s-text9">
+                        Minéia Teixeira
+                        Gerente Administrativo AACD Osasco
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Block4 -->
+        <div class="block4 wrap-pic-w">
+            <img src="~/images/sarah.jpg" alt="IMG-INSTAGRAM">
+
+            <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
+                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                    <i class="icon_heart_alt fs-20 p-r-12" aria-hidden="true"></i>
+                    <span class="p-t-2">39</span>
+                </span>
+
+                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                        Fev 2017
+                        Obrigada, Day Happy!!!
+                        A minha filha e os convidados mirins se divertiram à beça.
+                        Eu e meu esposo ficamos imensamente agradecido, pela diversão proporcionada com os brinquedos e atenciosidade da monitora.
+                        Mais uma vez, obrigada pelo serviço prestado.
+                    </p>
+
+                    <span class="s-text9">
+                        Festa Sarah
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Block4 -->
+        <div class="block4 wrap-pic-w">
+            <img src="~/images/giovana.jpg" alt="IMG-INSTAGRAM">
+
+            <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
+                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                    <i class="icon_heart_alt fs-20 p-r-12" aria-hidden="true"></i>
+                    <span class="p-t-2">39</span>
+                </span>
+
+                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                        04 ABR 2016
+                        Obrigado Day happy por mais uma prestação de serviço
+                        As crianças aproveitaram muito a cama elástica.
+                    </p>
+
+                    <span class="s-text9">
+                        Festa Giovana
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Block4 -->
+        <div class="block4 wrap-pic-w">
+            <img src="~/images/regiane.jpg" alt="IMG-INSTAGRAM">
+
+            <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
+                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                    <i class="icon_heart_alt fs-20 p-r-12" aria-hidden="true"></i>
+                    <span class="p-t-2">39</span>
+                </span>
+
+                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                        Recomendo serviços de locação dos brinquedos
+                        Equipe pontual e o mais importante, possuem cuidados e atenção enquanto as crianças brincam. Comprei serviço pelo Groupon
+                    </p>
+
+                    <span class="s-text9">
+                        Festa Regiane
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Block4 -->
+        <div class="block4 wrap-pic-w">
+            <img src="~/images/fernanda.jpg" alt="IMG-INSTAGRAM">
+
+            <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
+                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                    <i class="icon_heart_alt fs-20 p-r-12" aria-hidden="true"></i>
+                    <span class="p-t-2">39</span>
+                </span>
+
+                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                        06 Dez 2014
+                        Boa tarde, Rosângela! Tudo bem?
+                        Estou escrevendo para agradecer pelo dia da festa da Rio Acima!
+                        Só recebi feedback's positivos dos brinquedos e do seu pessoal! Os colaboradores adoraram a festa e tenho certeza que um dos maiores motivos foi a diversão que vocês proporcionaram com os brinquedos.
+                        Mais uma vez, obrigada!
+                        Um excelente final de ano a todos da Day Happy e que o próximo ano seja repleto de coisas boas!
+                        Grande abraço
+                    </p>
+
+                    <span class="s-text9">
+                        Empresa RIO ACIMA/Fernanda
+                    </span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
